@@ -1,0 +1,34 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <EnumBIC_XMLResponse xmlns="http://web.cbr.ru/">
+            <EnumBIC_XMLResult>
+                <EnumBIC xmlns="">
+                <BIC>
+                        <BIC>040173725</BIC>
+                        <RC>1993-06-17T00:00:00+04:00</RC>
+                        <NM>АЛТАЙБИЗНЕС-БАНК</NM>
+                        <RB>1022200526446</RB>
+                        <RN>2388</RN>
+                        <intCode>10000001</intCode>
+                    </BIC>
+                    <BIC>
+                        <BIC>040173745</BIC>
+                        <RC>1992-08-21T00:00:00+04:00</RC>
+                        <NM>СИБСОЦБАНК</NM>
+                        <RB>1022200525819</RB>
+                        <RN>2015</RN>
+                        <intCode>10000012</intCode>
+                    </BIC>
+                    <BIC>
+                        <BIC>040173749</BIC>
+                        <RC>1990-11-16T00:00:00+03:00</RC>
+                        <NM>ТАЛЬМЕНКА-БАНК</NM>
+                        <RB>1022200529537</RB>
+                        <RN>826</RN>
+                        <intCode>10000011</intCode>
+                    </BIC>
+                </EnumBIC>
+            </EnumBIC_XMLResult>
+        </EnumBIC_XMLResponse>
+    </soap:Body>
+</soap:Envelope>
